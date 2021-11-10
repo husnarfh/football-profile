@@ -1,13 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      dark
-    >
-        
-    </v-app-bar>
-
-    <v-main>
+    <v-main class="pa-0">
       <FootballClub/>
     </v-main>
   </v-app>
