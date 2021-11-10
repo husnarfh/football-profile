@@ -1,7 +1,7 @@
 <template>
    <v-container>
-      <v-row no-gutters class="text-center" justify="center">
-         <h2>Areas</h2>
+      <v-row no-gutters class="text-center">
+         <h3>Areas</h3>
       </v-row>
       <v-row no-gutters justify="center" v-if="areas.length === 0">
          <v-progress-circular

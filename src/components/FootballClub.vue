@@ -14,6 +14,7 @@
       <v-row no-gutters transition="slide-x-reverse-transition">
          <Areas
             v-if="selectedComponent === 0"
+            :search="search"
             @move-component="moveComponent"
          />
          <FootballTeams
