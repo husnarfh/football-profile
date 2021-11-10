@@ -1,24 +1,15 @@
 # football-club
 
-## Project setup
-```
-npm install
-```
+## Features
+1. Show all areas
+2. Shows all football clubs by selecting the area.
+3. Show football club profile and its player list.
+4. Show football player detail.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Dependencies
+**UI Framework**
+Vuetify v2 (For making UI design better and easier)
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+**Package**
+1. Prettier -> for styling code format
+2. Axios -> for using an API methods
